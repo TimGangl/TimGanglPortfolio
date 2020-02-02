@@ -1,13 +1,8 @@
-* {
+/* * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-}
-  
-  /* body {
-    background-image: url("/assets/images/keyboard-7.jpg")
-  } */
-
+} */
 
 html, body {
   width: 100%;
@@ -93,7 +88,7 @@ html, body {
   background-color: #009688;
   color: white;
   transition: 0.2s ease-in-out;
-    outline: none;
+  outline: none;
 }
 .closeB {
   position: absolute;
@@ -116,7 +111,7 @@ html, body {
 }
 .preview {
   max-height: 100px;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-overflow: ellipsis;
   content: "";
   position: relative;
@@ -129,8 +124,8 @@ html, body {
   position: absolute;
   left: 0;
   top: 0;
-  background: linear-gradient(transparent, white);
 }
+
 .section-wrap {
   height: 100%;
   width: 100%;
@@ -147,6 +142,9 @@ h1 {
 }
 h4{
   font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1;
+  color: #34495e;
+    font-weight: 300;
 }
 p {
   font-family: 'Roboto Condensed', sans-serif;
@@ -154,4 +152,27 @@ p {
   max-height: 100px;
   text-overflow: clip;
   margin: 0px;
+}
+
+.overlay{
+  position: absolute;
+  width:40px;
+  z-index: 1;
+  background: #009688;
+  color:white;
+  text-align: center;
+  font-size: x-small;
+  bottom: -20px;
+}
+
+.thumb{
+  position: relative;
+  display: inline;
+  padding-bottom: -20px;
+  
+
+}
+
+.thumbnail:hover{
+  opacity: .5;
 }
