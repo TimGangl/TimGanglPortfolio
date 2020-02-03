@@ -9,7 +9,10 @@ html, body {
   height: 100%;
   overflow: hidden;
   background:#009688;
-  background-image: url("/assets/images/keyboard-7.jpg")
+  background-image: url("/assets/images/keyboard-7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrapper {
   width: 100%;
@@ -27,8 +30,8 @@ html, body {
   height: 100%;
   background-color: #fff;
   width: 33%;
-  max-width: 600px;
-  max-height: 800px;
+  max-width: 700px;
+  max-height: 900px;
   border-radius: 5%;
 }
 .left, .right {
@@ -157,7 +160,7 @@ p {
 .overlay{
   position: absolute;
   width:40px;
-  z-index: 1;
+  z-index: 0;
   background: #009688;
   color:white;
   text-align: center;
@@ -168,7 +171,7 @@ p {
 .thumb{
   position: relative;
   display: inline;
-  padding-bottom: -20px;
+  padding-bottom: -16px;
   
 
 }
