@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   background:#009688;
-  background-image: url("/assets/images/keyboard-7.jpg");
+  background-image: url("../images/keyboard-7.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
